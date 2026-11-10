@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F-TECH GLOBAL | Technology training and web services</title>
+  <meta name="description" content="F-TECH GLOBAL teaches practical tech skills and builds websites for people and businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main">
+      <a class="brand" href="#home">F-TECH GLOBAL</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="page">
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Learn tech. Build websites. Grow online.</h1>
+        <p>F-TECH GLOBAL trains beginners in practical digital skills and builds clean, fast websites for small businesses and schools.</p>
+        <a class="btn" href="#contact">Start a project</a>
+        <a class="btn btn-ghost" href="#services">See what we do</a>
+      </div>
+      <figure class="hero-figure">
+        <img src="hero.svg" alt="Illustration of a laptop showing blue lines of code" width="640" height="440">
+      </figure>
+    </section>
+
+    <section id="services" class="section">
+      <h2>What we do</h2>
+      <p class="lead">Three services, each built around hands-on work you can see.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Web design</h3>
+          <p>Responsive websites that load fast and look right on any phone, tablet or computer.</p>
+        </article>
+        <article class="card">
+          <h3>Digital skills training</h3>
+          <p>Small classes that teach HTML, CSS and everyday computer skills by building real projects.</p>
+        </article>
+        <article class="card">
+          <h3>School technology support</h3>
+          <p>Lesson materials and practical guides for teaching digital technology in junior secondary school.</p>
+        </article>
+      </div>
+
+      <h3 class="list-title">Why people choose us</h3>
+      <ul class="check-list">
+        <li>Plain language, no confusing jargon</li>
+        <li>Projects you can show to employers and clients</li>
+        <li>Mobile-first design that works on any screen</li>
+        <li>Support in English, Hausa and Igbo</li>
+      </ul>
+    </section>
+
+    <section id="pricing" class="section">
+      <h2>Pricing</h2>
+      <p class="lead">Clear starting prices. We confirm the final cost after we talk about your needs.</p>
+      <div class="table-wrap">
+        <table>
+          <caption class="visually-hidden">F-TECH GLOBAL services, duration and starting price</caption>
+          <thead>
+            <tr>
+              <th scope="col">Service</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Starting price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">One-page website</th><td>1 week</td><td>₦50,000</td></tr>
+            <tr><th scope="row">Multi-page website</th><td>2 to 3 weeks</td><td>₦120,000</td></tr>
+            <tr><th scope="row">HTML and CSS class</th><td>6 weeks</td><td>₦30,000</td></tr>
+            <tr><th scope="row">School support pack</th><td>Per term</td><td>₦80,000</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <h2>Contact us</h2>
+        <p class="lead">Tell us what you need and we will reply within two working days.</p>
+      </div>
+      <form action="#" method="post" class="form">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="interest">I am interested in</label>
+          <select id="interest" name="interest">
+            <option>Web design</option>
+            <option>Digital skills training</option>
+            <option>School technology support</option>
+          </select>
+        </div>
+        <div class="field field-wide">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 F-TECH GLOBAL. All rights reserved.</p>
+    <p>Jos, Plateau State, Nigeria</p>
+  </footer>
+
+</body>
+</html>
